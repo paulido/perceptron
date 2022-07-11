@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "perceptron"
+version = "0.0.1"
+authors = [
+  { name="IDO Paul", email="paulido92@gmail.com" },
+]
+description = "this package implements perceptron"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/paulido/perceptron"
+"Bug Tracker" = "https://github.com/paulido/perceptron/issues"
